@@ -73,28 +73,3 @@
 
 
 
-//1
-// let str = "harshitdfjakldsfdf";
-// console.log("Length of the string:", str.length);
-// console.log("Last character of the string:", str[str.length - 1]);
-
-//2
-// let str = "JavaScript";
-// console.log("First character:", str[0]);
-// console.log("Last character:", str[str.length - 1]);
-
-
-// let str = "   hello world   ";
-// console.log("Before trimming:", `"${str}"`, "Length:", str.length);
-// let trimmedStr = str.trim();
-// console.log("After trimming:", `"${trimmedStr}"`, "Length:", trimmedStr.length);
-
-// let str = "JavaScript";
-// console.log("Uppercase:", str.toUpperCase());
-// console.log("Lowercase:", str.toLowerCase());
-
-// let str = "Hello, JavaScript!";
-// let startIndex = 7;
-// let endIndex = 16;
-// let substring = str.slice(startIndex, endIndex);
-// console.log("Extracted substring:", substring);
