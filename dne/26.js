@@ -100,10 +100,16 @@ let data = ["Ravi","Singh",17,"12th"]
 
 
 
-let newData = `my name is ${data[0]} ${data[1]} and my age is ${data[2]} and my degree is ${data[3]}`
+// let newData = `my name is ${data[0]} ${data[1]} and my age is ${data[2]} and my degree is ${data[3]}`
 
 
-console.log(newData)
+// console.log(newData)
+console.log(data)
+
+let item1 = data.shift();
+let item2 = data.shift()
+
+console.log(item2)
 
 
 
