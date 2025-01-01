@@ -10,12 +10,42 @@
 
 
 // reference types 
-// array 
-let array1 = ["item1", "item2"];
+// // array 
+// let array1 = ["item1", "item2"];
+// let array2 = array1;
+// console.log("array1", array1);
+// console.log("array2", array2);
+// array1.push("item3");
+// console.log("after pushing element to array 1");
+// console.log("array1", array1);
+// console.log("array2", array2);
+//primitve
+// let num1 = 5;
+// let num2 = num1;
+
+// console.log(num1)
+// console.log(num2)
+
+// num1++;
+
+// console.log("num1 data",num1)
+// console.log("num2 data",num2)
+
+// num2--;
+// console.log("num1 data",num1)
+// console.log("num2 data",num2)
+
+//reference
+
+let array1 = ["item1","item2"]
 let array2 = array1;
-console.log("array1", array1);
-console.log("array2", array2);
+
+console.log(array1)
+console.log(array2)
+
 array1.push("item3");
-console.log("after pushing element to array 1");
-console.log("array1", array1);
-console.log("array2", array2);
+
+console.log(array1)
+console.log(array2)
+
+

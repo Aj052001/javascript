@@ -104,12 +104,12 @@ let data = ["Ravi","Singh",17,"12th"]
 
 
 // console.log(newData)
-console.log(data)
+// console.log(data)
 
-let item1 = data.shift();
-let item2 = data.shift()
+// let item1 = data.shift();
+// let item2 = data.shift()
 
-console.log(item2)
+// console.log(item2)
 
 
 
