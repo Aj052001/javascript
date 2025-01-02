@@ -12,6 +12,22 @@
 // let array2 = [...array1, ...oneMoreArray];
 
 
+// let array1 = ["item1", "item2"];
+
+// let array3 = ["item1", "item2"];
+// // let array2 = ["item1", "item2"];
+// // let array2 = array1.slice(0);
+
+// // let array2 = [].concat(array1)
+
+// // new  ... 
+
+// let array2  = [...array1,...array3,"4",'5']
+// console.log(array1)
+// console.log(array2)
+
+
+
 
 
 
@@ -62,14 +78,21 @@
 // let array2 = [...array1,"item3","it"]
 // console.log(array1)
 // console.log(array2)
+// let array1 = [1,2,3]
+// let array2 = ["item3","item4"]
+
+// let array3 = [...array1,...array2,"apple"]
+// // let array3 = [].concat(array1).concat(array2)
+// // let array3 = array1.slice(0).concat(array2.slice(0))
 
 
-let array1 = [1,2,3]
-let array2 = ["item3","item4"]
+// console.log(array3)
 
-let array3 = [...array1,...array2,"apple"]
-// let array3 = [].concat(array1).concat(array2)
-// let array3 = array1.slice(0).concat(array2.slice(0))
+// let str = "hello world ajay singh bhati apple banana mango"
 
-
-console.log(array3)
+// let ans = str.split("a");
+// for(let i = 0;i<ans.length;i++)
+// {
+//     console.log(ans[i])
+// }
+// // console.log(ans)
