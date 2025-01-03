@@ -55,3 +55,13 @@
 // Create an array of numbers from 1 to 5. Use a for...of loop to print each element in the array.
 // Task 13: For in Loop
 // Create an array of strings. Use a for...in loop to print the index and the value of each element in the array.
+
+
+// array = [1,2,3,"apple",true]
+
+// for(let item in array)
+// {
+//     console.log(item)
+// }
+
+
