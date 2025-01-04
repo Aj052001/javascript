@@ -95,20 +95,18 @@
 
 # Membership Operators   in ,not in 
 # Predict the output:
-
 # text = "Hello, World!"
 # print("Hello" in text)
-
-
-
-
-
 # fruits = ["apple","banana","apple",1,2,3,4,"True",True]
 # print(fruits)
-
-
-
 # html  - css  - javascript  - reactjs(frontend)/angular   - nodejs expresjs mongodb   6 -7    git  
 # mern  
 # ram - 8 gb  ssd - 512 
 # mean
+data = ["apple","mango","banana","papaya","grapes"]
+
+
+print(data)
+data[1:4] = ["veer"] 
+# ["apple","veer","gupta","grapes"]
+print(data)  

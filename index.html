@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    
+    <form action="#" method="post">
+        <h2>Personal Information</h2>
+        
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" required><br><br>
+        
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+        
+        <label>Interested Courses:</label><br>
+        <input type="checkbox" id="web" name="course" value="web">
+        <label for="web">Web Development</label><br>
+        <input type="checkbox" id="python" name="course" value="python">
+        <label for="python">Python Programming</label><br>
+        <input type="checkbox" id="java" name="course" value="java">
+        <label for="java">Java Programming</label><br><br>
+        
+        
+        
+        <input type="submit" value="Submit Form">
+        <input type="reset" value="Reset Form">
+    </form>
+</body>
+</html>

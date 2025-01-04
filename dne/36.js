@@ -37,6 +37,29 @@
 // console.log(typeof(data))
 // console.log(Array.isArray(data))
 
-const [a,[b],c] = [13,[2,4],5]
+// const [a,[b],c] = [13,[2,4],5]
 
-console.log(b)
+// console.log(b)
+
+// Task 14: Extract First and Last Element
+// Create an array and use destructuring to extract the first and last elements.
+
+// Task 15: Create Object
+// Create an object with three properties
+
+//difference btw dot and square bracket 
+ const obj = {
+    firstName :"ajay",
+    "lastname" :"singh"
+ }
+
+  key = "age"
+obj[key] = 21
+
+console.log(obj)
+
+
+
+
+
+

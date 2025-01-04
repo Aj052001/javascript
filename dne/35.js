@@ -49,13 +49,13 @@
 // console.log(secValue)
 // console.log(myNewArray)
 
-const array1 = [1,2,3,4]
-const array2 = [...array1]
+// const array1 = [1,2,3,4]
+// const array2 = [...array1]
 
 
-array1.push(5)
-console.log(array1)
-console.log(array2)
+// array1.push(5)
+// console.log(array1)
+// console.log(array2)
 
 
 
@@ -66,3 +66,15 @@ console.log(array2)
 // newArray.push(6)
 // console.log(array)
 // console.log(newArray)
+
+
+
+const array = [1,2,3,4]
+
+const [firstValue,secValue,...myNewArray ] = array
+
+console.log(firstValue)
+console.log(secValue)
+console.log(myNewArray)
+
+
