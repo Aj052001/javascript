@@ -7,6 +7,6 @@ const person = {
 
 }
 
-console.log(person["person hobbies"]);
-person[key] = "harshitvashisth@gmail.com";
-console.log(person);
+person[key] = "ajay@gmail.com"
+
+console.log(person)

@@ -26,8 +26,8 @@
 
 
 //how to iterate object
-// for in loop 
-// Object.keys 
+// for in loop  //in index 
+// Object.keys  
 
 
 // for in loop 
@@ -37,7 +37,11 @@ const obj = {
     age :22,
     gender : "Male",
     course:"Btech"
+
+
 }
+
+
 
 
 // for (let key in obj)
@@ -46,16 +50,41 @@ const obj = {
 // }
 
 // Object.keys(obj)
-// console.log(Object.keys(obj))
+
 const keys = Object.keys(obj)
+
+console.log(keys)
+
+
+for( let key of keys)
+{
+    console.log(obj[key])
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const keys = Object.keys(obj)
 
 
 // console.log(keys)
 
-for(let item of keys)
-{
-    console.log(obj[item])
-}
+// for(let item of keys)
+// {
+//     console.log(obj[item])
+// }
 
 // Task 1: Create an Object and Access Properties
 // Create an object with three key-value pairs (e.g., name, age, city).

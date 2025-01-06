@@ -50,16 +50,19 @@
 //difference btw dot and square bracket 
  const obj = {
     firstName :"ajay",
-    "lastname" :"singh"
+    lastname :"singh"
  }
 
-  key = "age"
-obj[key] = 21
+//   key = "age"
+// obj[key] = 21
 
-console.log(obj)
+// console.log(obj)
 
 
 
+
+
+console.log(obj["firstName"])
 
 
 
