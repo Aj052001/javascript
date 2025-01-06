@@ -103,10 +103,31 @@
 # mern  
 # ram - 8 gb  ssd - 512 
 # mean
-data = ["apple","mango","banana","papaya","grapes"]
 
 
-print(data)
-data[1:4] = ["veer"] 
-# ["apple","veer","gupta","grapes"]
-print(data)  
+
+# print(data)
+# data[1:4] = ["veer"] 
+# # ["apple","veer","gupta","grapes"]
+# print(data)  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data1 = ["apple","mango","kivi"]  #list
+
+
+for x in data1:
+    print(x)
+

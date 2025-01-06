@@ -3,40 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple HTML Form</title>
+    <title>Job Application Form</title>
 </head>
 <body>
-    <h1>Student Registration Form</h1>
+    <h1>Job Application Form</h1>
     
     <form action="#" method="post">
-        <h2>Personal Information</h2>
+        <h2>Applicant Information</h2>
         
         <label for="fullname">Full Name:</label><br>
         <input type="text" id="fullname" name="fullname" required><br><br>
         
-        <label for="email">Email:</label><br>
-        <input type="text" id="email" name="email" required><br><br>
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
         
-        <label>Gender:</label><br>
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="male">Male</label><br>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Female</label><br>
-        <input type="radio" id="other" name="gender" value="other">
-        <label for="other">Other</label><br><br>
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
         
-        <label>Interested Courses:</label><br>
-        <input type="checkbox" id="web" name="course" value="web">
-        <label for="web">Web Development</label><br>
-        <input type="checkbox" id="python" name="course" value="python">
-        <label for="python">Python Programming</label><br>
-        <input type="checkbox" id="java" name="course" value="java">
-        <label for="java">Java Programming</label><br><br>
+        <label>Years of Experience:</label><br>
+        <input type="radio" id="entry" name="experience" value="entry">
+        <label for="entry">0-2 years</label><br>
+        <input type="radio" id="mid" name="experience" value="mid">
+        <label for="mid">3-5 years</label><br>
+        <input type="radio" id="senior" name="experience" value="senior">
+        <label for="senior">5+ years</label><br><br>
         
+        <label>Position Type:</label><br>
+        <input type="radio" id="fulltime" name="position" value="fulltime">
+        <label for="fulltime">Full-time</label><br>
+        <input type="radio" id="parttime" name="position" value="parttime">
+        <label for="parttime">Part-time</label><br>
+        <input type="radio" id="contract" name="position" value="contract">
+        <label for="contract">Contract</label><br><br>
         
+        <label>Skills:</label><br>
+        <input type="checkbox" id="management" name="skills" value="management">
+        <label for="management">Project Management</label><br>
+        <input type="checkbox" id="programming" name="skills" value="programming">
+        <label for="programming">Programming</label><br>
+        <input type="checkbox" id="design" name="skills" value="design">
+        <label for="design">Design</label><br><br>
         
-        <input type="submit" value="Submit Form">
-        <input type="reset" value="Reset Form">
+        <label for="resume">Upload Resume:</label><br>
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx"><br><br>
+        
+        <label for="comments">Additional Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="submit" value="Submit Application">
     </form>
 </body>
 </html>
