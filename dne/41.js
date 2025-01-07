@@ -16,22 +16,19 @@
 
 
 
-const obj = {
-  firstName :"ajay",
-  lastName :"singh",
-  data:{
-    age :21,
-  gender : "Male"
-  }
+// const obj = {
+//   firstName :"ajay",
+//   lastName :"singh",
+
   
-}
+// }
 
 
-const {firstName,lastName,data:{age,gender}} = obj
+// const {firstName,lastName,data:{age,gender}} = obj
 
-console.log(firstName)
-console.log(lastName)
-console.log(gender)
+// console.log(firstName)
+// console.log(lastName)
+// console.log(gender)
 
 // note : if you want to change variable name so 
 // example 

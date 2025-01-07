@@ -125,9 +125,37 @@
 
 
 
-data1 = ["apple","mango","kivi"]  #list
+# data =["reading","gaming","coding"]  #list
+
+# i = 0
+
+# while i < len(data):
+#     print(f'I like {data[i]}')
+#     i = i+1
 
 
-for x in data1:
-    print(x)
+# Question 1: Basic For Loop
+# fruits = ["apple", "orange", "grape"]
+# Write a for loop to print each fruit in the list.
+
+# Question 2: Looping with Index Numbers
+# Write a program that uses the range() function to loop through the list below and prints the index and the corresponding item.
+# animals = ["cat", "dog", "rabbit"]
+
+# Question 3: While Loop
+# Use a while loop to print each element in the list until the end.
+# colors = ["red", "green", "blue"]
+
+# Question 4: List Comprehension
+# Rewrite the following code using list comprehension:
+
+# numbers = [1, 2, 3, 4]
+# for num in numbers:
+#     print(num)
+
+# Question 5: Custom Message in Loop
+# Write a loop (any type) to print each item from the list along with a custom message: "I like <item>".
+# hobbies = ["reading", "gaming", "coding"]
+
+
 

@@ -5,8 +5,12 @@ const users = [
     {userId: 3,firstName: 'nitish', gender: 'male'},
 ]
 
-const [{firstName : firstNameOfUserOne ,gender : genderOfUserOne},,{firstName}] = users
-console.log(firstName)
+// const [{firstName : firstNameOfUserOne ,gender : genderOfUserOne},,{firstName}] = users
+// console.log(firstName)
+
+// const [user1, ,user3] = users
+
+// console.log(user3.firstName)
 
 
 
@@ -86,3 +90,15 @@ console.log(firstName)
 // Use const variables for the keys (e.g., key1 = "username", key2 = "email").
 // Assign some values (e.g., "john_doe" and "john@example.com") to these keys.
 // Log the object to verify the computed properties.
+
+
+const obj = {
+    firstName : "ajay",
+    lastName : "singh"
+}
+key = "email"
+obj[key] = "ajay@gmail.com"
+
+
+console.log(obj)
+

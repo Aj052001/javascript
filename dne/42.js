@@ -13,21 +13,34 @@
 
 
 // // objects inside array 
-const data = [
-    {
-        firstName :"kartik",
+// const data = [
+//     {
+//         firstName :"kartik",
        
-    },
-    {
-        firstName :"Narendra",
+//     },
+//     {
+//         firstName :"Narendra",
        
-    },
+//     },
   
-]
+// ]
 
-for( let item of data)
-{
-    console.log(item)
-}
+// for (let item of data)
+// {
+//     console.log(item.firstName)
+// }
+
+
+
+
+
+
+
+
+
+// for( let item of data)
+// {
+//     console.log(item)
+// }
 
 

@@ -1,9 +1,9 @@
 // // spread operator
-// const array1 = [1, 2, 3];
-// const array2 = [5, 6, 7];
+const array1 = [1, 2, 3];
+const array2 = [5, 6, 7];
 
 // const newArray = [...array1, ...array2, 89, 69];
-// // const newArray = [..."123456789"];
+// const newArray = [..."123456789"];
 // console.log(newArray);
 
 
@@ -37,9 +37,9 @@
 
 
 // const array = [1,2,3,4,5,6];
-const array = "abcdefghijklmnopqrstuvwxyz"
-const obj = {...array}
-console.log(obj)
+// const array = "abcdefghijklmnopqrstuvwxyz"
+// const obj = {...array}
+// console.log(obj)
 
 // Note  key value - index value in string and array
 
