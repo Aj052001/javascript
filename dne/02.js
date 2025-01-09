@@ -8,12 +8,9 @@
 // declare a variable 
 
 var firstName = "Harshit";
-
 // use a variable 
 console.log(firstName);
-
 // change value 
-
 firstName = "Mohit";
 
 console.log(firstName);

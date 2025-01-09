@@ -1,23 +1,16 @@
 // function singHappyBirthday(){
 //     console.log("happy birthday to you ......");
 // }
-
 // function sumThreeNumbers(number1, number2, number3){
 //     return number1 + number2 + number3;
 // }
-
-
-
 // // isEven
 // // input : 1 number 
 // // output : true , false 
-
 // // function isEven(number){
 // //     return number % 2 === 0;
 // // }
-
 // // console.log(isEven(4));
-
 // // function 
 // // input : string 
 // // output: firstCharacter 
@@ -73,15 +66,15 @@
 // let data = singHappyBirthday();
 // console.log(data)
 
-// function addTwoNumber(num1, num2){
+// function addTwoNumberFunction(num1, num2){
 //     // console.log(num1 + num2)
 //     return num1+num2;
 // }
 
-// const ans1 = addTwoNumber(2,4)
+// const ans1 = addTwoNumberFunction(2,4)
 // console.log(ans1)
 
-// const ans2 = addTwoNumber(4,4)
+// const ans2 = addTwoNumberFunction(4,4)
 // console.log(ans2)
 
 
@@ -141,7 +134,35 @@
 
 
 
-1.make a function to add two numbber 
-2.make a function to add three number
-3.make a function to check user less 18 or greater 18
-4.make a function with two parameter one is array and one is value and check if value is present in array return index and else return -1 
+// 1.make a function to add two numbber 
+// 2.make a function to add three number
+// 3.make a function to check user less 18 or greater 18
+// 4.make a function with two parameter one is array and one is value and check if value is present in array return index and else return -1 
+
+
+//fuction expression
+
+
+// function singHappyBirthday(){
+//     console.log("happy birthday to you ......");
+// }
+
+
+// const singHappyBirthday = function(){
+//     console.log("happy birthday to you ......");
+// }
+
+// singHappyBirthday();
+
+// // function addTwoNumberFunction(num1,num2){
+// //     console.log(num1 + num2)
+// // }
+
+// // addTwoNumberFunction(2,3)
+
+
+// const addTwoNumberFunction = function(num1,num2){
+//     console.log(num1 + num2)
+// }
+
+// addTwoNumberFunction(2,3);

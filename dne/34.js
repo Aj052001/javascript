@@ -1,33 +1,18 @@
 // for in loop in array
 // const fruits = ["apple", "mango", "grapes", "fruit4", "fruit5"];
 // const fruits2 = [];
-
 // for(let index in fruits){
 //     fruits2.push(fruits[index].toUpperCase());
 // }
 // console.log(fruits2);
-
-
-
-
-
 // const fruits = ["apple", "mango", "grapes", "fruit4", "fruit5"];
 // let newArray = [];
-
 // //for of loop 
-
 // for ( let fruit of fruits)
 // {
 //     newArray.push(fruit.toUpperCase())
 // }
-
 // console.log(newArray)
-
-
-
-
-
-
 // Task 1: Primitive vs Reference Types
 // Create a primitive variable (e.g., a number) and assign it to another variable. Modify the value of the original variable and print both variables. What happens when you modify one?
 // Create a reference type variable (e.g., an array) and assign it to another variable. Modify the contents of the original array and print both arrays. What happens when you modify one?
@@ -55,13 +40,9 @@
 // Create an array of numbers from 1 to 5. Use a for...of loop to print each element in the array.
 // Task 13: For in Loop
 // Create an array of strings. Use a for...in loop to print the index and the value of each element in the array.
-
-
 // array = [1,2,3,"apple",true]
-
 // for(let item in array)
 // {
 //     console.log(item)
 // }
-
 

@@ -5,61 +5,71 @@
 //     "person hobbies": ["guitar", "sleeping", "listening music"]
 // }
 
+
+const data  = [1,2,3,4,5,6]
+console.log(data)
+const newArray = []
+for(let i of data)
+{
+    newArray.push(i*2)
+}
+
+console.log(newArray)
 // for in loop 
 // Object.keys 
 
-// for(let key in person){
-//     // console.log(`${key} : ${person[key]}`);
-//     console.log(key," : " ,person[key]);
+// // for(let key in person){
+// //     // console.log(`${key} : ${person[key]}`);
+// //     console.log(key," : " ,person[key]);
+// // }
+
+// // console.log(typeof (Object.keys(person)));
+// // const val = Array.isArray((Object.keys(person)));
+// // console.log(val);
+
+// // for(let key of Object.keys(person)){
+// //     console.log(person[key]);
+// // }
+
+
+
+
+
+// //how to iterate object
+// // for in loop  //in index 
+// // Object.keys  
+
+
+// // for in loop 
+// const obj = {
+//     firstName :"ajay",
+//     lastName :"singh",
+//     age :22,
+//     gender : "Male",
+//     course:"Btech"
+
+
 // }
 
-// console.log(typeof (Object.keys(person)));
-// const val = Array.isArray((Object.keys(person)));
-// console.log(val);
-
-// for(let key of Object.keys(person)){
-//     console.log(person[key]);
-// }
 
 
 
+// // for (let key in obj)
+// // {
+// //     console.log(obj[key])
+// // }
+
+// // Object.keys(obj)
+
+// const keys = Object.keys(obj)
+
+// console.log(keys)
 
 
-//how to iterate object
-// for in loop  //in index 
-// Object.keys  
-
-
-// for in loop 
-const obj = {
-    firstName :"ajay",
-    lastName :"singh",
-    age :22,
-    gender : "Male",
-    course:"Btech"
-
-
-}
-
-
-
-
-// for (let key in obj)
+// for( let key of keys)
 // {
 //     console.log(obj[key])
 // }
-
-// Object.keys(obj)
-
-const keys = Object.keys(obj)
-
-console.log(keys)
-
-
-for( let key of keys)
-{
-    console.log(obj[key])
-}
 
 
 

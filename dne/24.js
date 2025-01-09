@@ -21,11 +21,11 @@
 
 
 
-//     *
-//    ***
-//   *****
-//  *******
-// *********
+// *
+// **
+// ***
+// ****
+// *****
 
 
 //make a game if user guess  25 user win double money or agar user guess 20 - 30  close to win  too high or too low

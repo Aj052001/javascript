@@ -14,7 +14,7 @@
 
 # print("ajay" in str1)
 
-
+# ajaysinghbhati052001@gmail.com  console.log("singhbhatisinghbhatisinghbhatisinghbhatisinghtbhatisinghtbhatisinghtbhatisinghtibi")
 # What will be the output of the following code?
 
 
@@ -104,26 +104,10 @@
 # ram - 8 gb  ssd - 512 
 # mean
 
-
-
 # print(data)
 # data[1:4] = ["veer"] 
 # # ["apple","veer","gupta","grapes"]
 # print(data)  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # data =["reading","gaming","coding"]  #list
 
@@ -158,4 +142,118 @@
 # hobbies = ["reading", "gaming", "coding"]
 
 
+#  before comprehension
+# fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+# newlist = []
+# for x in fruits:
+#   if "w" in x:
+#     newlist.append(x)
+
+# print(newlist)
+
+# after comprehension
+# fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+# newlist = [x for x in fruits]
+
+# print(newlist)
+
+# import random
+# print(random.randrange(1,6))
+
+# print(range(1,6))
+
+# newList = [x for x in range(10) if x < 5 ]
+# print(newList)
+
+
+
+
+# lsit  = ['b','a','c']
+# lsit.reverse()
+
+# list = ["orange", "mango", "mor","kiwi", "pineapple", "banana"]
+# print("before reverse")
+# print(list)
+# list.reverse()
+# print("after reverse")
+# print(list)
+# 1. What will be the value of newlist?
+# python
+# Copy code
+# fruits = ['apple', 'banana', 'cherry']
+# newlist = [x for x in fruits if x != 'banana']
+# 2. What will be the value of squared?
+# python
+# Copy code
+# numbers = [1, 2, 3, 4, 5]
+# squared = [x**2 for x in numbers if x % 2 == 0]
+# 3. What will be the value of filtered?
+# python
+# Copy code
+# words = ['python', 'java', 'c++', 'ruby']
+# filtered = [word for word in words if len(word) > 4]
+# 4. What will be the value of multiplied?
+# python
+# Copy code
+# nums = [2, 4, 6, 8]
+# multiplied = [x * 2 for x in nums if x > 4]
+# 5. What will be the result of the following code?
+# python
+# Copy code
+# thislist = ["banana", "apple", "Apple", "cherry"]
+# thislist.sort()
+# print(thislist)
+# 6 sort this list assending order
+# thislist = [10, 20, 15, 30, 25]
+# 7 sort this list descening order
+# thislist = [10, 20, 15, 30, 25]
+# 8 reverse this list
+# thislist = [10, 20, 15, 30, 25]
+# words = ['python', 'java', 'c++', 'ruby']
+# filtered = [x for x in words if len(x) > 4]
+#task 106
+# fruits = ['apple','banana','cherry']
+# newlist = [x for x in fruits if x !='banana']
+# print(newlist)
+#task 107
+# numbers = [1, 2, 3, 4, 5]
+# squared = [x**2 for x in numbers if x % 2 == 0]
+# print(squared)
+#task 108
+# words = ['python','java','c++','ruby']
+# filtered = [x for x in words if len(x) > 4]
+# print(filtered)      #@!output = "python" - because python size is more than 4#@!
+#task 109
+# nums = [2, 4, 6, 8]
+# multiplied = [x * 2 for x in nums if x > 4]
+# print(multiplied)
+#task 110
+# thislist = ["banana", "apple", "Apple", "cherry"]
+# thislist.sort()
+# print(thislist)
+#task 111
+# thislist = [10, 20, 15, 30, 25]
+# thislist.sort()
+# print(thislist)
+#task 112
+# thislist = [10, 20, 15, 30, 25]
+# thislist.sort(reverse=True)
+# print(thislist)
+#task 113
+# thislist = [10,20,15,30,25]
+# thislist.reverse()
+# print(thislist)
+# premitive data type   reference data type 
+# list1 = [1,2,3,4,5]
+# list2 = list1[:]
+# list1.append(6)
+# print(list1)
+# print(list2)
+
+
+
+list = ['a','b','a']
+
+print(list.index('b'))
 

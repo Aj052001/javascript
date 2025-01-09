@@ -3,131 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Application Form</title>
+    <title>Travel Booking Form</title>
 </head>
 <body>
-   
-    <h2>Applicant Information</h2>
-
+    <h1>Travel Booking & Tour Package Reservation</h1>
+    
     <form action="#" method="POST">
-        <!-- Personal Information -->
-        <label for="salutation">Salutation:</label><br>
-        <select id="salutation" name="salutation" required>
-            <option value="">Select One</option>
-            <option value="mr">Mr.</option>
-            <option value="ms">Ms.</option>
-            <option value="mrs">Mrs.</option>
-            <option value="dr">Dr.</option>
-            <option value="other">Other</option>
-        </select><br><br>
-    
-        <label for="fullname">Full Name:</label><br>
-        <input type="text" id="fullname" name="fullname" required><br><br>
-    
-        <label for="phone">Phone Number:</label><br>
-        <input type="tel" id="phone" name="phone" required><br><br>
-    
-        <label for="email">Email Address:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-    
-        <!-- Location Information -->
-        <label for="country">Country:</label><br>
-        <select id="country" name="country" required>
-            <option value="">Select Country</option>
-            <option value="us">United States</option>
-            <option value="uk">United Kingdom</option>
-            <option value="ca">Canada</option>
-            <option value="au">Australia</option>
-            <option value="other">Other</option>
-        </select><br><br>
-    
-        <label for="state">State/Province:</label><br>
-        <select id="state" name="state" required>
-            <option value="">Select State</option>
-            <option value="ny">New York</option>
-            <option value="ca">California</option>
-            <option value="tx">Texas</option>
-            <option value="other">Other</option>
-        </select><br><br>
-    
-        <!-- Professional Information -->
-        <label>Years of Experience:</label><br>
-        <input type="radio" id="entry" name="experience" value="entry">
-        <label for="entry">0-2 years</label><br>
-        <input type="radio" id="mid" name="experience" value="mid">
-        <label for="mid">3-5 years</label><br>
-        <input type="radio" id="senior" name="experience" value="senior">
-        <label for="senior">5+ years</label><br><br>
-    
-        <label for="department">Department:</label><br>
-        <select id="department" name="department" required>
-            <option value="">Select Department</option>
-            <option value="tech">Technology</option>
-            <option value="hr">Human Resources</option>
-            <option value="finance">Finance</option>
-            <option value="marketing">Marketing</option>
-            <option value="operations">Operations</option>
-        </select><br><br>
-    
-        <label>Position Type:</label><br>
-        <input type="radio" id="fulltime" name="position" value="fulltime">
-        <label for="fulltime">Full-time</label><br>
-        <input type="radio" id="parttime" name="position" value="parttime">
-        <label for="parttime">Part-time</label><br>
-        <input type="radio" id="contract" name="position" value="contract">
-        <label for="contract">Contract</label><br><br>
-    
-        <label for="education">Highest Education:</label><br>
-        <select id="education" name="education" required>
-            <option value="">Select Education Level</option>
-            <option value="highschool">High School</option>
-            <option value="bachelors">Bachelor's Degree</option>
-            <option value="masters">Master's Degree</option>
-            <option value="phd">Ph.D.</option>
-            <option value="other">Other</option>
-        </select><br><br>
-    
-        <label>Skills:</label><br>
-        <input type="checkbox" id="management" name="skills" value="management">
-        <label for="management">Project Management</label><br>
-        <input type="checkbox" id="programming" name="skills" value="programming">
-        <label for="programming">Programming</label><br>
-        <input type="checkbox" id="design" name="skills" value="design">
-        <label for="design">Design</label><br>
-        <input type="checkbox" id="analysis" name="skills" value="analysis">
-        <label for="analysis">Data Analysis</label><br>
-        <input type="checkbox" id="communication" name="skills" value="communication">
-        <label for="communication">Communication</label><br><br>
-    
-        <label for="languages">Languages Known:</label><br>
-        <select id="languages" name="languages" multiple>
-            <option value="english">English</option>
-            <option value="spanish">Spanish</option>
-            <option value="french">French</option>
-            <option value="german">German</option>
-            <option value="mandarin">Mandarin</option>
-        </select><br><br>
-    
-        <label for="salary">Expected Salary Range:</label><br>
-        <select id="salary" name="salary" required>
-            <option value="">Select Range</option>
-            <option value="range1">$30,000 - $50,000</option>
-            <option value="range2">$50,000 - $70,000</option>
-            <option value="range3">$70,000 - $90,000</option>
-            <option value="range4">$90,000+</option>
-        </select><br><br>
-    
-    
-        <label for="portfolio">Portfolio URL:</label><br>
-        <input type="url" id="portfolio" name="portfolio"><br><br>
-    
-        <label for="linkedin">LinkedIn Profile:</label><br>
-        <input type="url" id="linkedin" name="linkedin"><br><br>
-    
-        <input type="submit" value="Submit Application">
-        <input type="reset" value="Clear Form">
-    </form>
+        <!-- Trip Type Selection -->
+        <h3>Trip Type</h3>
+        <input type="radio" id="domestic" name="tripType" value="domestic" required>
+        <label for="domestic">Domestic</label>
+        <input type="radio" id="international" name="tripType" value="international">
+        <label for="international">International</label><br><br>
 
+       
+        <!-- Destination Selection -->
+        <h3>Destination Details</h3>
+        <label for="destination">Select Destination:</label>
+        <select id="destination" name="destination" required>
+            <optgroup label="Asia">
+                <option value="thailand">Thailand</option>
+                <option value="japan">Japan</option>
+                <option value="singapore">Singapore</option>
+            </optgroup>
+            <optgroup label="Europe">
+                <option value="france">France</option>
+                <option value="italy">Italy</option>
+                <option value="spain">Spain</option>
+            </optgroup>
+            <optgroup label="Americas">
+                <option value="usa">United States</option>
+                <option value="canada">Canada</option>
+                <option value="brazil">Brazil</option>
+            </optgroup>
+        </select><br><br>
+
+        <!-- Package Preferences -->
+        <h3>Package Preferences</h3>
+        <label for="accommodation">Accommodation Type:</label>
+        <select id="accommodation" name="accommodation" required>
+            <option value="">Select Accommodation</option>
+            <option value="luxury">Luxury Hotel</option>
+            <option value="boutique">Boutique Hotel</option>
+            <option value="resort">Resort</option>
+            <option value="apartment">Serviced Apartment</option>
+            <option value="hostel">Hostel</option>
+        </select><br><br>
+
+        <label>Included Activities:</label><br>
+        <input type="checkbox" id="cityTour" name="activities" value="cityTour">
+        <label for="cityTour">City Tour</label><br>
+        <input type="checkbox" id="adventure" name="activities" value="adventure">
+        <label for="adventure">Adventure Activities</label><br>
+        <input type="checkbox" id="cultural" name="activities" value="cultural">
+        <label for="cultural">Cultural Experiences</label><br>
+        <input type="checkbox" id="foodTour" name="activities" value="foodTour">
+        <label for="foodTour">Food Tours</label><br><br>
+
+        <label for="mealPlan">Meal Plan:</label>
+        <select id="mealPlan" name="mealPlan" required>
+            <option value="">Select Meal Plan</option>
+            <option value="breakfast">Breakfast Only</option>
+            <option value="halfboard">Half Board</option>
+            <option value="fullboard">Full Board</option>
+            <option value="allinclusive">All Inclusive</option>
+        </select><br><br>
+
+        <!-- Special Requirements -->
+        <h3>Special Requirements</h3>
+        <label for="accessibility">Accessibility Needs:</label>
+        <select id="accessibility" name="accessibility">
+            <option value="none">None</option>
+            <option value="wheelchair">Wheelchair Access</option>
+            <option value="elevator">Elevator Access</option>
+            <option value="ground">Ground Floor Room</option>
+        </select><br><br>
+
+        <label for="dietary">Dietary Requirements:</label>
+        <select id="dietary" name="dietary" multiple>
+            <option value="vegetarian">Vegetarian</option>
+            <option value="vegan">Vegan</option>
+            <option value="halal">Halal</option>
+            <option value="kosher">Kosher</option>
+            <option value="glutenfree">Gluten Free</option>
+            <option value="dairyfree">Dairy Free</option>
+        </select><br><br>
+
+        <label for="specialRequests">Special Requests:</label><br>
+        <textarea id="specialRequests" name="specialRequests" rows="4" cols="50" 
+                  placeholder="Please specify any additional requirements or preferences..."></textarea><br><br>
+
+        <!-- Contact Information -->
+        <h3>Contact Information</h3>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+       
+        <label for="emergencyContact">Emergency Contact:</label>
+        <input type="text" id="emergencyContact" name="emergencyContact" required><br><br>
+        
+      
+        <!-- Budget -->
+        <h3>Budget</h3>
+        <label for="budget">Preferred Budget Range (per person):</label>
+        <select id="budget" name="budget" required>
+            <option value="">Select Budget Range</option>
+            <option value="budget">$500 - $1,000</option>
+            <option value="moderate">$1,000 - $2,500</option>
+            <option value="luxury">$2,500 - $5,000</option>
+            <option value="ultraluxury">$5,000+</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit Booking Request">
+        <input type="reset" value="Clear Form">
     </form>
 </body>
 </html>
