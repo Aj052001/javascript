@@ -3,122 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Booking Form</title>
+    <title>Student Registration Form</title>
 </head>
 <body>
-    <h1>Travel Booking & Tour Package Reservation</h1>
+    <h1>Student Registration Form</h1>
     
     <form action="#" method="POST">
-        <!-- Trip Type Selection -->
-        <h3>Trip Type</h3>
-        <input type="radio" id="domestic" name="tripType" value="domestic" required>
-        <label for="domestic">Domestic</label>
-        <input type="radio" id="international" name="tripType" value="international">
-        <label for="international">International</label><br><br>
-
-       
-        <!-- Destination Selection -->
-        <h3>Destination Details</h3>
-        <label for="destination">Select Destination:</label>
-        <select id="destination" name="destination" required>
-            <optgroup label="Asia">
-                <option value="thailand">Thailand</option>
-                <option value="japan">Japan</option>
-                <option value="singapore">Singapore</option>
-            </optgroup>
-            <optgroup label="Europe">
-                <option value="france">France</option>
-                <option value="italy">Italy</option>
-                <option value="spain">Spain</option>
-            </optgroup>
-            <optgroup label="Americas">
-                <option value="usa">United States</option>
-                <option value="canada">Canada</option>
-                <option value="brazil">Brazil</option>
-            </optgroup>
-        </select><br><br>
-
-        <!-- Package Preferences -->
-        <h3>Package Preferences</h3>
-        <label for="accommodation">Accommodation Type:</label>
-        <select id="accommodation" name="accommodation" required>
-            <option value="">Select Accommodation</option>
-            <option value="luxury">Luxury Hotel</option>
-            <option value="boutique">Boutique Hotel</option>
-            <option value="resort">Resort</option>
-            <option value="apartment">Serviced Apartment</option>
-            <option value="hostel">Hostel</option>
-        </select><br><br>
-
-        <label>Included Activities:</label><br>
-        <input type="checkbox" id="cityTour" name="activities" value="cityTour">
-        <label for="cityTour">City Tour</label><br>
-        <input type="checkbox" id="adventure" name="activities" value="adventure">
-        <label for="adventure">Adventure Activities</label><br>
-        <input type="checkbox" id="cultural" name="activities" value="cultural">
-        <label for="cultural">Cultural Experiences</label><br>
-        <input type="checkbox" id="foodTour" name="activities" value="foodTour">
-        <label for="foodTour">Food Tours</label><br><br>
-
-        <label for="mealPlan">Meal Plan:</label>
-        <select id="mealPlan" name="mealPlan" required>
-            <option value="">Select Meal Plan</option>
-            <option value="breakfast">Breakfast Only</option>
-            <option value="halfboard">Half Board</option>
-            <option value="fullboard">Full Board</option>
-            <option value="allinclusive">All Inclusive</option>
-        </select><br><br>
-
-        <!-- Special Requirements -->
-        <h3>Special Requirements</h3>
-        <label for="accessibility">Accessibility Needs:</label>
-        <select id="accessibility" name="accessibility">
-            <option value="none">None</option>
-            <option value="wheelchair">Wheelchair Access</option>
-            <option value="elevator">Elevator Access</option>
-            <option value="ground">Ground Floor Room</option>
-        </select><br><br>
-
-        <label for="dietary">Dietary Requirements:</label>
-        <select id="dietary" name="dietary" multiple>
-            <option value="vegetarian">Vegetarian</option>
-            <option value="vegan">Vegan</option>
-            <option value="halal">Halal</option>
-            <option value="kosher">Kosher</option>
-            <option value="glutenfree">Gluten Free</option>
-            <option value="dairyfree">Dairy Free</option>
-        </select><br><br>
-
-        <label for="specialRequests">Special Requests:</label><br>
-        <textarea id="specialRequests" name="specialRequests" rows="4" cols="50" 
-                  placeholder="Please specify any additional requirements or preferences..."></textarea><br><br>
-
-        <!-- Contact Information -->
-        <h3>Contact Information</h3>
-        <label for="name">Full Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
+        <h2>Personal Information</h2>
         
-        <label for="email">Email:</label>
+        <label for="studentId">Student ID:</label><br>
+        <input type="text" id="studentId" name="studentId" required><br><br>
+        
+        <label for="fullName">Full Name:</label><br>
+        <input type="text" id="fullName" name="fullName" required><br><br>
+        
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+        
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+        
+        <h2>Contact Information</h2>
+        
+        <label for="email">Email:</label><br>
         <input type="email" id="email" name="email" required><br><br>
         
-       
-        <label for="emergencyContact">Emergency Contact:</label>
-        <input type="text" id="emergencyContact" name="emergencyContact" required><br><br>
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
         
-      
-        <!-- Budget -->
-        <h3>Budget</h3>
-        <label for="budget">Preferred Budget Range (per person):</label>
-        <select id="budget" name="budget" required>
-            <option value="">Select Budget Range</option>
-            <option value="budget">$500 - $1,000</option>
-            <option value="moderate">$1,000 - $2,500</option>
-            <option value="luxury">$2,500 - $5,000</option>
-            <option value="ultraluxury">$5,000+</option>
-        </select><br><br>
-
-        <input type="submit" value="Submit Booking Request">
+        <label for="website">Personal Website (if any):</label><br>
+        <input type="url" id="website" name="website"><br><br>
+        
+        <h2>Academic Information</h2>
+        
+        <label for="admissionDate">Admission Date and Time:</label><br>
+        <input type="datetime-local" id="admissionDate" name="admissionDate" required><br><br>
+        
+        <label for="grade">Grade Level (1-12):</label><br>
+        <input type="number" id="grade" name="grade" min="1" max="12" required><br><br>
+        
+        <label>Subjects of Interest:</label><br>
+        <input type="checkbox" id="math" name="subjects" value="math">
+        <label for="math">Mathematics</label><br>
+        <input type="checkbox" id="science" name="subjects" value="science">
+        <label for="science">Science</label><br>
+        <input type="checkbox" id="literature" name="subjects" value="literature">
+        <label for="literature">Literature</label><br><br>
+        
+        <h2>Documents</h2>
+        
+        <label for="photo">Student Photo:</label><br>
+        <input type="file" id="photo" name="photo" accept="image/*" required><br><br>
+        
+        <label for="documents">Previous School Records:</label><br>
+        <input type="file" id="documents" name="documents" accept=".pdf,.doc,.docx" multiple><br><br>
+        
+        <h2>Additional Information</h2>
+        
+        <label for="favoriteColor">Favorite Color:</label><br>
+        <input type="color" id="favoriteColor" name="favoriteColor"><br><br>
+        
+        <label for="studyHours">Daily Study Hours (1-12):</label><br>
+        <input type="range" id="studyHours" name="studyHours" min="1" max="12" step="1"><br><br>
+        
+        <!-- Hidden Fields -->
+        <input type="hidden" id="registrationTime" name="registrationTime" value="2024">
+        
+        <!-- Form Controls -->
+        <input type="submit" value="Register">
         <input type="reset" value="Clear Form">
+        <input type="button" value="Save as Draft" onclick="alert('Saving as draft...')">
     </form>
 </body>
 </html>

@@ -253,7 +253,15 @@
 
 
 
-list = ['a','b','a']
 
-print(list.index('b'))
+# fruits = ('apple','banana','mango','kiwi')
+# print(fruits)
 
+# del (fruits)
+
+# print(fruits)
+
+
+fruits = ('apple','banana','cherry')
+newtuple = (for x in fruits)
+print(newtuple)

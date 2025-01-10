@@ -77,3 +77,6 @@
 // }
 // checkNumber(5)
 
+
+//   function exp
+
