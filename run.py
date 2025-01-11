@@ -262,6 +262,22 @@
 # print(fruits)
 
 
-fruits = ('apple','banana','cherry')
-newtuple = (for x in fruits)
-print(newtuple)
+# fruits = ('apple','banana','cherry')
+
+# print(newtuple)
+
+# thisset = {"apple", "banana", "cherry", "apple"}
+# thisset = set(("apple", "banana", "cherry", True, 1, 2))
+
+# # print(thisset)
+
+# print(thisset)
+
+
+
+thisset = ["apple", "banana", "cherry"]
+mylist = ("kiwi", "orange")
+
+thisset.update(mylist)
+
+print(thisset)
