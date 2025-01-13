@@ -8,21 +8,22 @@
 //     if(typeof b ==="undefined"){
 //         b = 0;
 //     }
-//     return a+b;
+//     return a*b;
 // }
 
 // function addTwo(a,b=0){
 //     return a+b;
 // }
 
-// const ans = addTwo(4, 8);
+// const ans = addTwo(4);
 // console.log(ans);
 
 
 
 
 
-const addTwo = (a,b=4)=>{
+const addTwo = (a,b = 5)=>{
+   
     
     console.log(a+b)
 }

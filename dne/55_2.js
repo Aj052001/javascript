@@ -89,3 +89,7 @@
 // Ek powerOf function likho jo ek function return kare jo kisi number ka power calculate kare.
 // Ek createAdder function banao jo ek function return kare jo kisi number mein add kare.
 // Ek wrapLogger function likho jo ek prefix le aur ek function return kare jo messages ko us prefix ke saath log kare.
+
+
+
+// mongodb+srv://ajsingh052001:<db_password>@cluster0.ro3hm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0

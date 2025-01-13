@@ -41,3 +41,13 @@
 
 
 // myFun()
+
+
+
+// let , var , const 
+
+function myFun()
+{
+    var x = 5;
+}
+console.log(x)

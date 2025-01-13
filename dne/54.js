@@ -20,19 +20,19 @@
 
 
 
-// const myFun = (data)=>{
-//     console.log(data)
-// }
+const myFun = (data)=>{
+    console.log(data)
+}
 
 
 
-// const myFunc2 =(callback)=>{
+const myFunc2 =(a)=>{
 
-//     console.log("inside fun2")
-//     const data = [1,2,3]
-//     callback(data);
-//     console.log("after my fun")
+    console.log("inside fun2")
+    const data = [1,2,3]
+    a(data);
+    console.log("after my fun")
     
-// }
+}
 
-// myFunc2(myFun)
+myFunc2(myFun)

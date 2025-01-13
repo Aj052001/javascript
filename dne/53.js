@@ -14,7 +14,7 @@
 //     age: 500
 // }
 
-// function printDetails(obj){
+// function printDetails({firstname,gender}){
 //     console.log(obj.firstName);
 //     console.log(obj.gender);
 // }
@@ -40,9 +40,10 @@ const person = {
 
 
 
-const printPerson = ({firstName,gender,age})=>{
-    console.log(user.firstName)
-    console.log(user.age)
+
+const printPerson = ({firstName , age})=>{
+    console.log(firstName)
+    console.log(age)
 }
 
 printPerson(person)
