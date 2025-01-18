@@ -2,11 +2,18 @@
 
 //  const numbers = [4,2,5,8];
 
+//  for(let number of numbers)
+//  {
+//     // console.log(numbers[number])
+//     console.log(number)
+//  }
+
 // function myFunc(number, index){
-//     console.log(`index is ${index} number is ${number}`);
+//     return (`index is ${index} number is ${number}`);
 // }
 
-// numbers.forEach(myFunc(number,index));
+// const data = numbers.forEach(myFunc);
+// console.log(data)
 
 // // numbers.forEach(function(number, index){
 // //     console.log(number*3, index);
@@ -54,12 +61,36 @@
 
 
 
-const numbers = ["Kartik","Ravi","Narendra","Shivraj","Lokendra"];
-const printValue = (value,index)=>{
-    console.log(` ${index+1}  ${value}`)
-}
+// const numbers = ["Kartik","Ravi","Narendra","Shivraj","Lokendra"];
+// const printValue = (value,index)=>{
+//     console.log(` ${index+1}  ${value}`)
+// }
 
 
 
-numbers.forEach(printValue)
+// numbers.forEach(printValue)
+
+
+
+// const numbers = ["Kartik","Ravi","Narendra","Shivraj","Lokendra"];
+
+// const users = [
+//     {firstName: "harshit", age: 23},
+//     {firstName: "mohit", age: 21},
+//     {firstName: "nitish", age: 22},
+//     {firstName: "garima", age: 20},
+// ]
+
+// //foreach,map,filter, reduce
+
+
+
+// const items = (vlaue,index)=>{
+//     console.log (vlaue.firstName)
+// }
+// const data  = users.forEach(items)
+// console.log(data)
+
+
+
 

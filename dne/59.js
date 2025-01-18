@@ -1,5 +1,5 @@
 // reduce 
-const numbers = [1,2,3,4,5, 10];
+// const numbers = [1,2,3,4,5, 10];
 
 // aim : sum of all the numbers in array 
 
@@ -32,3 +32,22 @@ const numbers = [1,2,3,4,5, 10];
 // 0                {}                  12000
 // 12000            22000                34000
 // 34000            15000                49000
+
+
+
+
+
+
+// const numbers = [1764,1312,510,599,6249];
+// const deliveryCharge = 29
+// const data = numbers.reduce((accumulator,reducer)=>{
+//     return accumulator + reducer;
+// },0)
+// console.log(`Secured Packaging Fee                               ₹${deliveryCharge}`)
+// const totalAmount = data + deliveryCharge;
+// console.log(`Total Amount                                        ₹${totalAmount}`)
+
+
+
+
+

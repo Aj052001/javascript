@@ -1,10 +1,17 @@
 // filter method 
 
-const numbers = [1,3,2,6,4,8];
+// const numbers = ["boat","jbl","noise"];
 
 
 
-const evenNumbers = numbers.filter((number)=>{
-    return number % 2 === 0;
-});
-console.log(evenNumbers);
+// const data = numbers.filter((item)=>{
+//     return item;
+// })
+
+// console.log(data)
+
+
+// const evenNumbers = numbers.filter((number)=>{
+//     return number % 2 === 0;
+// });
+// console.log(evenNumbers);
