@@ -275,9 +275,74 @@
 
 
 
-thisset = ["apple", "banana", "cherry"]
-mylist = ("kiwi", "orange")
+# thisset = ["apple", "banana", "cherry"]
+# mylist = ("kiwi", "orange")
 
-thisset.update(mylist)
+# thisset.update(mylist)
 
-print(thisset)
+# print(thisset)
+
+
+#task 157      # Use symmetric_difference_update() to update set A with non-overlapping items from set B.
+
+
+
+
+
+
+
+#task 161      # Find the common elements between two lists using sets: [1, 2, 3, 4] and [3, 4, 5, 6].
+
+
+#task 159      #Convert a string "hello" into a set of unique characters.
+# str = {"h","e","l","l","o","l","l"}
+# print(str)
+# str = "prograamming"
+
+# thisSet = set()
+# for x in str:
+#     if x in "aeiou":
+#         thisSet.add(x)
+
+    
+
+# print(thisSet)
+
+
+
+#task 160  #Create a set of all unique vowels from the string "programming".
+
+
+
+#task 150     # Remove all even numbers from a set .
+
+# thisSet = {1, 2, 3, 4, 5, 6, 7, 8}
+
+# for x in thisSet:
+#     if x%2 == 0:
+#         thisSet.remove(x)
+# print(thisSet)
+
+
+#task 155      # Use intersection_update() to update set A to only include common items with set B.
+# setx={"apple","banana"}
+# sety={"banana","cheery"}
+# setx.intersection_update(sety)
+# print(setx)
+
+#task 156      #Use difference_update() to remove items in set B from set A.
+# x = {1,2,3,4}
+# y = {3,4,5}
+# x.difference(y)
+# print(x)
+
+#task 153      # Find the symmetric difference between {1, 2, 3} and {3, 4, 5}.     
+# x = {1,2,3,4}
+# y = {3,4,5}
+# x.symmetric_difference_update(y)
+# print(x)
+
+#task 148     # Loop through the set {"python", "java", "c++"} and print each item.
+thisset={"python", "java", "c++"}
+for x in thisset:
+    print(x)

@@ -3,110 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hospital Patient Registration Form</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="./style2.css">
+      <style>
+        h1{
+            background-color: red;
+        }
+      </style>
 </head>
 <body>
-    <h1>Hospital Patient Registration Form</h1>
-    
-    <form action="#" method="POST">
-        <h2>Patient Information</h2>
-        
-        <label for="patientId">Patient ID (if returning):</label><br>
-        <input type="text" id="patientId" name="patientId"><br><br>
-        
-        <label for="fullName">Full Name:</label><br>
-        <input type="text" id="fullName" name="fullName" required><br><br>
-        
-        <label for="dob">Date of Birth:</label><br>
-        <input type="date" id="dob" name="dob" required><br><br>
-        
-        <label>Gender:</label><br>
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="male">Male</label>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Female</label>
-        <input type="radio" id="other" name="gender" value="other">
-        <label for="other">Other</label><br><br>
-        
-        <h2>Contact Information</h2>
-        
-        <label for="address">Home Address:</label><br>
-        <textarea id="address" name="address" rows="3" required></textarea><br><br>
-        
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br><br>
-        
-        <label for="phone">Phone Number:</label><br>
-        <input type="tel" id="phone" name="phone" required><br><br>
-        
-        <h2>Emergency Contact</h2>
-        
-        <label for="emergencyName">Emergency Contact Name:</label><br>
-        <input type="text" id="emergencyName" name="emergencyName" required><br><br>
-        
-        <label for="emergencyPhone">Emergency Contact Phone:</label><br>
-        <input type="tel" id="emergencyPhone" name="emergencyPhone" required><br><br>
-        
-        <label for="relationship">Relationship to Patient:</label><br>
-        <input type="text" id="relationship" name="relationship" required><br><br>
-        
-        <h2>Medical Information</h2>
-        
-        <label for="bloodType">Blood Type:</label><br>
-        <select id="bloodType" name="bloodType" required>
-            <option value="">Select Blood Type</option>
-            <option value="A+">A+</option>
-            <option value="A-">A-</option>
-            <option value="B+">B+</option>
-            <option value="B-">B-</option>
-            <option value="AB+">AB+</option>
-            <option value="AB-">AB-</option>
-            <option value="O+">O+</option>
-            <option value="O-">O-</option>
-        </select><br><br>
-        
-        <label for="allergies">Known Allergies:</label><br>
-        <textarea id="allergies" name="allergies" rows="3"></textarea><br><br>
-        
-        <label for="medications">Current Medications:</label><br>
-        <textarea id="medications" name="medications" rows="3"></textarea><br><br>
-        
-        <label>Pre-existing Conditions:</label><br>
-        <input type="checkbox" id="diabetes" name="conditions" value="diabetes">
-        <label for="diabetes">Diabetes</label><br>
-        <input type="checkbox" id="hypertension" name="conditions" value="hypertension">
-        <label for="hypertension">Hypertension</label><br>
-        <input type="checkbox" id="asthma" name="conditions" value="asthma">
-        <label for="asthma">Asthma</label><br>
-        <input type="checkbox" id="heartDisease" name="conditions" value="heartDisease">
-        <label for="heartDisease">Heart Disease</label><br><br>
-        
-        <h2>Insurance Information</h2>
-        
-        <label for="insuranceProvider">Insurance Provider:</label><br>
-        <input type="text" id="insuranceProvider" name="insuranceProvider"><br><br>
-        
-        <label for="policyNumber">Policy Number:</label><br>
-        <input type="text" id="policyNumber" name="policyNumber"><br><br>
-        
-        <label for="insuranceCard">Insurance Card (both sides):</label><br>
-        <input type="file" id="insuranceCard" name="insuranceCard" accept="image/*" multiple><br><br>
-        
-        <h2>Consent</h2>
-        
-        <input type="checkbox" id="consent" name="consent" required>
-        <label for="consent">I consent to medical treatment and verify that the information provided is accurate</label><br><br>
-        
-        <input type="checkbox" id="privacyPolicy" name="privacyPolicy" required>
-        <label for="privacyPolicy">I have read and agree to the hospital's privacy policy</label><br><br>
-        
-        <!-- Hidden Fields -->
-        <input type="hidden" id="registrationTime" name="registrationTime" value="2024">
-        
-        <!-- Form Controls -->
-        <input type="submit" value="Submit Registration">
-        <input type="reset" value="Clear Form">
-        <input type="button" value="Save as Draft" onclick="alert('Saving as draft...')">
-    </form>
+
+    <!-- inline -->
+    <h1 style="background-color: darkblue;">hello</h1>
 </body>
 </html>
