@@ -3,7 +3,9 @@
 // toLowerCase()
 // slice()
 
-let firstName = "harshit";
+let firstName = "harshit"; // anshu, narn,shiv
+
+
 
 // console.log(firstName.length);
 // firstName = firstName.trim(); // "harshit"

@@ -6,7 +6,15 @@
 // let newString = string1 + +string2;
 // console.log(newString);
 
+
+
+
+
+
+
 let x = "5";
 let  y = "6";
 
-console.log(+x + y)
+console.log(+x + +y)
+
+

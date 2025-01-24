@@ -28,3 +28,10 @@
 // let age = "18";
 // age = Number(age);
 // console.log(typeof age);
+
+
+
+
+let ans = 5   + 5  + "5"
+
+console.log(ans)

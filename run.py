@@ -342,7 +342,124 @@
 # x.symmetric_difference_update(y)
 # print(x)
 
-#task 148     # Loop through the set {"python", "java", "c++"} and print each item.
-thisset={"python", "java", "c++"}
-for x in thisset:
-    print(x)
+# #task 148     # Loop through the set {"python", "java", "c++"} and print each item.
+# thisset={"python", "java", "c++"}
+# for x in thisset:
+#     print(x)
+
+
+
+
+
+# thisdict["model"] = "TaTa"
+# thisdict.update({"model":"Tata"})
+# print(thisdict)
+ 
+
+# if "model" in thisdict:
+#     print("yes")
+# else:
+#     print("No")
+
+# thisdict["nwtWorth"] = "1000$"
+# thisdict.update({
+#     "colors":"blue"
+# })
+
+# del thisdict["year"]
+# thisdict.clear()
+# print(thisdict)
+
+
+# thisdict = dict(brand =  "Ford",
+#   model =  "Mustang",
+#  year = 1964,
+#   colors = "red"
+#   )
+
+
+# thisdict2 = dict(thisdict)
+# print(thisdict2)
+
+# thisdict["name"]="veer"
+# print(thisdict2)
+
+
+
+# myfamily = {
+#   "child1" : {
+#     "name" : "Emil",
+#     "year" : 2004
+#   },
+#   "child2" : {
+#     "name" : "Tobias",
+#     "year" : 2007
+#   },
+#   "child3" : {
+#     "name" : "Linus",
+#     "year" : 2011
+#   }
+# }
+
+# for x in myfamily:
+#     print(myfamily[x]["name"])
+    
+
+
+# a = {'name' : 'John', 'age' : 20}
+# b = {'name' : 'May', 'age' : 23}
+# customers = {'c1' : a, 'c2' : b}
+# for x, obj in customers.items():
+#   print(x)
+    
+#   for y in obj:
+#     print(y,obj[y])
+
+
+# user ki age 6 milk , 6 se 18 coffee , 18 drink 
+
+# if x > 10 {
+#      print("yes")
+# }
+# x = 101
+
+# if x < 6:
+#     print("Milk")
+# elif x > 6 and x < 18 :
+#     print("coffee")
+# elif x > 18 and x < 100 : 
+#     print("drink")
+# else:
+#     print("no")
+
+
+# x  = 10
+
+# # if x > 5 :
+# #     print("yes")
+# # else:
+# #     print("no")
+
+# print("Yes") if x > 5 else print("no")
+
+#and , or , not
+# a = 200
+# b = 33
+# c = 500
+# if not a > b:
+#   print("a is NOT greater than b")
+
+# if a > b or c > a:
+#   print("atleast one  condition are True")
+
+# if a > b and c > a :
+#   print("Both conditions are True")
+
+#nested if 
+
+# x  = 40 
+
+# if x > 20 :
+#     if x < 30:
+#         print("yes")
+

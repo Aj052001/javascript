@@ -14,3 +14,8 @@ console.log(firstName.length);
 console.log(firstName[firstName.length-2]);
 
 // last Index : length - 1 
+
+
+
+
+let str ="helloworld"

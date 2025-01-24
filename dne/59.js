@@ -131,3 +131,23 @@
 // },10)
 
 // console.log(and)
+
+
+
+
+// const array = [1,2,3,4,5,6]
+
+ //{forEach , map , filter , reduce} ,  {sort , every , find , some , fill splice} 
+//forEach to print all vlaue 
+//filter data 5 
+//make a new array using map each value it double 
+//make sum of all item using reduce 
+
+
+// const sum  = array.reduce((accumulator,reducor)=>{
+//     return accumulator+reducor
+// })
+
+// console.log(sum)
+
+

@@ -120,39 +120,70 @@
 // a-b ---> negative ----> a,b
 // 5, 9 ---> -4 
 // price lowToHigh HighToLow 
-const products = [
-    {productId: 1, produceName: "p1",price: 300 },
-    {productId: 2, produceName: "p2",price: 3000 },
-    {productId: 3, produceName: "p3",price: 200 },
-    {productId: 4, produceName: "p4",price: 8000 },
-    {productId: 5, produceName: "p5",price: 500 },
-]
+// const products = [
+//     {productId: 1, produceName: "p1",price: 300 },
+//     {productId: 2, produceName: "p2",price: 3000 },
+//     {productId: 3, produceName: "p3",price: 200 },
+//     {productId: 4, produceName: "p4",price: 8000 },
+//     {productId: 5, produceName: "p5",price: 500 },
+// ]
 
-// lowToHigh
-const lowToHigh = products.slice(0).sort((a,b)=>{
-    return a.price-b.price
-});
+// // lowToHigh
+// const lowToHigh = products.slice(0).sort((a,b)=>{
+//     return a.price-b.price
+// });
 
-const highToLow = products.slice(0).sort((a,b)=>{
-    return b.price-a.price;
-});
-
-
-
-const users = [
-    {firstName: "harshit", age: 23},
-    {firstName: "mohit", age: 21},
-    {firstName: "nitish", age: 22},
-    {firstName: "garima", age: 20},
-]
+// const highToLow = products.slice(0).sort((a,b)=>{
+//     return b.price-a.price;
+// });
 
 
-users.sort((a,b)=>{
-    if(a.firstName > b.firstName){
-        return 1;
-    }else{
-        return -1;
-    }
-});
 
-console.log(users);
+// const users = [
+//     {firstName: "harshit", age: 23},
+//     {firstName: "mohit", age: 21},
+//     {firstName: "nitish", age: 22},
+//     {firstName: "garima", age: 20},
+// ]
+
+
+// users.sort((a,b)=>{
+//     if(a.firstName > b.firstName){
+//         return 1;
+//     }else{
+//         return -1;
+//     }
+// });
+
+// console.log(users);
+
+
+
+// const array = [388,28,41,6,4,3]
+// // const array = ['harshit', 'abcd', 'mohit', 'nitish', 'aabc', 'ABC', 'Harshit'];
+ 
+// // array.sort()
+
+// array.sort((a,b)=>{
+//     return a-b; 
+// })
+// console.log(array)
+
+
+
+
+// const products = [
+//     {productId: 1, produceName: "p1",price: 300 },
+//     {productId: 2, produceName: "p2",price: 3000 },
+//     {productId: 3, produceName: "p3",price: 200 },
+//     {productId: 4, produceName: "p4",price: 8000 },
+//     {productId: 5, produceName: "p5",price: 500 },
+// ]
+
+
+//  const newArray = products.slice(0).sort((a,b)=>{
+//     return b.price-a.price;
+// })
+// console.log(products)
+// console.log(newArray)
+

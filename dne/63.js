@@ -1,6 +1,6 @@
 // some method 
 
-const numbers = [3,5,11,9];
+// const numbers = [3,5,11,9];
 
 // kya ek bhi number esa hai jo even hai 
 // true 
