@@ -21,5 +21,11 @@
 // console.log(myNumber+ sameMyNumber);
 
 
-let x
-console.log(x)
+// let x
+// console.log(x)
+
+
+// x = '19'
+// y = '10'
+
+// console.log(+x + +y)

@@ -1,6 +1,9 @@
 // String indexing 
 
-let firstName = "harshitdfjakldsfdf";
+let firstName = " firstname     ";
+
+
+
 
 //  h    a   r   s   h   i   t 
 //  0    1   2   3   4   5   6

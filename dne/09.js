@@ -12,9 +12,9 @@
 
 
 
-let x = "5";
-let  y = "6";
+// let x = "5";
+// let  y = "6";
 
-console.log(+x + +y)
+// console.log(+x + +y)
 
 

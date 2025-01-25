@@ -32,6 +32,6 @@
 
 
 
-let ans = 5   + 5  + "5"
+let ans =  5  + "5" + 5
 
 console.log(ans)

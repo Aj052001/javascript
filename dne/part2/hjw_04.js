@@ -14,4 +14,16 @@
 
 // console.log(typeof firstName);
 
-// let firstName = "harshit";
+// let firstName = "ajay";
+
+
+
+// console.log(typeof FirstName)
+
+// const FirstName = "amit"
+
+// console.log(FirstName)
+
+
+//   FirstName = ui
+

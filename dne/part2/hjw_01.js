@@ -3,25 +3,20 @@
 
 // why compilation 
 
-
 // How javascript code executes 
 
 
 // what is global exection context ? 
 // what is local execution context ? 
 // closures
-console.log(this);
-console.log(window);
-console.log(firstName);
-var firstName = "Harshit";
-console.log(firstName);
+// console.log(this);
+// // console.log(window);
+// console.log(firstName);
+// var firstName = "ajay";
+// console.log(firstName);
 
-
-
-
-
-// compile 
-// code execute 
+// // compile 
+// // code execute 
 
 
 // compile  - > 
@@ -34,3 +29,6 @@ console.log(firstName);
 //first pura code check hoga uske par one by one run hoga 
 
 
+
+// console.log(firstName)
+// var firstName ="hello"

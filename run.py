@@ -24,15 +24,11 @@
 # print(x == y)
 # Evaluate the expression:
 
-
-
 # x = 15
 # print(x > 10 and x < 20)
 # Identify the correct operator to use for "less than or equal to."
 
 # What is the result of:
-
-
 
 # a = 5
 # b = 5
@@ -42,18 +38,13 @@
 # Logical Operators
 # What will this expression evaluate to?
 
-
-
 # x = 3
 # print(x < 5 or x > 10)
 # Predict the output of the following code:
 
-
-
 # x = 7
 # y = 12
 # print(not(x > y or y < 15))
-
 
 # Which logical operator would you use to ensure two conditions are both true?  
 
@@ -64,17 +55,12 @@
 # if (x > 10 and x < 20):
 #     print("Valid")
 
-
-
 # Identity Operators
 # Determine the output:
-
-
 
 # a = [1, 2, 3]
 # b = [1, 2, 3]
 # print(a is b)
-
 
 # What will x is not y return if x and y refer to different objects with the same value?
 # a = [1, 2, 3]
@@ -117,7 +103,6 @@
 #     print(f'I like {data[i]}')
 #     i = i+1
 
-
 # Question 1: Basic For Loop
 # fruits = ["apple", "orange", "grape"]
 # Write a for loop to print each fruit in the list.
@@ -140,7 +125,6 @@
 # Question 5: Custom Message in Loop
 # Write a loop (any type) to print each item from the list along with a custom message: "I like <item>".
 # hobbies = ["reading", "gaming", "coding"]
-
 
 #  before comprehension
 # fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
@@ -165,9 +149,6 @@
 
 # newList = [x for x in range(10) if x < 5 ]
 # print(newList)
-
-
-
 
 # lsit  = ['b','a','c']
 # lsit.reverse()
@@ -251,16 +232,12 @@
 # print(list1)
 # print(list2)
 
-
-
-
 # fruits = ('apple','banana','mango','kiwi')
 # print(fruits)
 
 # del (fruits)
 
 # print(fruits)
-
 
 # fruits = ('apple','banana','cherry')
 
@@ -273,8 +250,6 @@
 
 # print(thisset)
 
-
-
 # thisset = ["apple", "banana", "cherry"]
 # mylist = ("kiwi", "orange")
 
@@ -282,17 +257,9 @@
 
 # print(thisset)
 
-
 #task 157      # Use symmetric_difference_update() to update set A with non-overlapping items from set B.
 
-
-
-
-
-
-
 #task 161      # Find the common elements between two lists using sets: [1, 2, 3, 4] and [3, 4, 5, 6].
-
 
 #task 159      #Convert a string "hello" into a set of unique characters.
 # str = {"h","e","l","l","o","l","l"}
@@ -304,15 +271,9 @@
 #     if x in "aeiou":
 #         thisSet.add(x)
 
-    
-
 # print(thisSet)
 
-
-
 #task 160  #Create a set of all unique vowels from the string "programming".
-
-
 
 #task 150     # Remove all even numbers from a set .
 
@@ -322,7 +283,6 @@
 #     if x%2 == 0:
 #         thisSet.remove(x)
 # print(thisSet)
-
 
 #task 155      # Use intersection_update() to update set A to only include common items with set B.
 # setx={"apple","banana"}
@@ -347,14 +307,9 @@
 # for x in thisset:
 #     print(x)
 
-
-
-
-
 # thisdict["model"] = "TaTa"
 # thisdict.update({"model":"Tata"})
 # print(thisdict)
- 
 
 # if "model" in thisdict:
 #     print("yes")
@@ -370,21 +325,17 @@
 # thisdict.clear()
 # print(thisdict)
 
-
 # thisdict = dict(brand =  "Ford",
 #   model =  "Mustang",
 #  year = 1964,
 #   colors = "red"
 #   )
 
-
 # thisdict2 = dict(thisdict)
 # print(thisdict2)
 
 # thisdict["name"]="veer"
 # print(thisdict2)
-
-
 
 # myfamily = {
 #   "child1" : {
@@ -404,8 +355,6 @@
 # for x in myfamily:
 #     print(myfamily[x]["name"])
     
-
-
 # a = {'name' : 'John', 'age' : 20}
 # b = {'name' : 'May', 'age' : 23}
 # customers = {'c1' : a, 'c2' : b}
@@ -463,3 +412,39 @@
 #     if x < 30:
 #         print("yes")
 
+# while loop 
+
+# x = 1 
+# print(x)
+# print(x+1)
+# print(x+1+1)
+# print(x+1+1+1)
+# print(x+1+1+1+1)
+
+# x = 1
+# while x < 10:
+
+
+
+    # es5
+
+
+
+
+
+
+
+# i =1 
+# while i< 6:
+#     if i ==3:
+#         i+=1
+#         continue
+#     print(i)
+#     i+=1
+
+# i = 1
+# while i < 6:
+#     print(i)
+#     i += 1
+# else:
+#     print("i is no longer less than 6")

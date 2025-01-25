@@ -13,11 +13,47 @@
 //"abc"
 //true
 
-let i = 0 
-console.log(i==0)
-if(i == 0)
+
+
+
+
+
+
+
+
+
+
+if(undefined)
 {
     console.log("yes")
-}else{
-    console.log("No")
 }
+else{
+    console.log("no")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let i = 0 
+// console.log(i==0)
+// if(i == 0)
+// {
+//     console.log("yes")
+// }else{
+//     console.log("No")
+// }

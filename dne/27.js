@@ -3,6 +3,7 @@
 // array shift unshift 
 
 let fruits = ["apple", "mango", "grapes"];
+// fruits[1]
 console.log(fruits);
 // push 
 // fruits.push("banana");

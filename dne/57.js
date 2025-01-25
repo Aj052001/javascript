@@ -284,3 +284,37 @@
 
 // grades.fill(0,0,6)
 // console.log(grades)
+
+
+
+const  products  = [
+  {productId : 1 , productName:"speaker",price : 5000,brand:"boat"},
+  {productId : 2 , productName:"bluetooth",price : 50,brand:"jbl"},
+  {productId : 3 , productName:"speaker",price : 500,brand:"boat"},
+  {productId : 4 , productName:"speaker",price : 50000,brand:"jbl"},
+  {productId : 4 , productName:"speaker",price : 500,brand:"jbl"},
+]
+
+
+const filterData = products.filter((product)=>{
+    if(product.brand === "jbl")
+    {
+        return product;
+    }
+})
+
+console.log(filterData)
+const priceData = filterData.map((item)=>{
+    return item.price
+})
+
+
+console.log(priceData)
+const ans = priceData.reduce((acc,red)=>{
+    return acc+red
+})
+
+console.log(ans)
+// brand = "jbl"  uski sari price calculate krna hai 
+
+
